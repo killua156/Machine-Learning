@@ -12,3 +12,5 @@ quotes = soup.find_all("span", class_="text")
 
 for quote in quotes:
     print(quote.text)
+
+print('Hello')
